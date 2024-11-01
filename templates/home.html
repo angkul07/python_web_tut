@@ -5,24 +5,58 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Jovian Careers</title>
+    <style>
+        h1 {
+            font-size: 40px;
+            color: rebeccapurple;
+            text-align: center;
+        }
+
+        #banner {
+            width: 100%;
+            height: 300px;
+            object-fit: contain;
+        }
+
+        h2 {
+            font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+            font-size: 32px;
+            color: bisque;
+            text-align: center;
+        }
+
+        #container {
+            max-width: 720px;
+            margin: 0 auto 0 auto;
+        }
+
+        #contact{
+            text-align: center;
+        }
+    </style>
 </head>
 
 <body>
-    <h1>Jovian Careers</h1>
+    <div id="container">
+        <h1 class="main_head">Jovian Careers</h1>
 
-    <img src="/static/jobs.jpg" alt="" , height="350px">
+        <img id="banner" src="/static/jobs.jpg" alt="">
 
-    <h2>About Jovian</h2>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum et officiis, saepe doloremque ipsum eligendi
-        repudiandae aliquam laboriosam. Adipisci cum ipsum aliquam dolor quam fugit, dolore animi molestias praesentium
-        repudiandae magni ea sunt voluptatem? Cumque facere quaerat, corrupti blanditiis dolor accusantium quasi
-        laboriosam iste unde porro dolorum quos ipsam iure dolore cum, odio animi placeat non quae voluptatum nemo amet?
-    </p>
+        <h2>About Jovian</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum et officiis, saepe doloremque ipsum eligendi
+            repudiandae aliquam laboriosam. Adipisci cum ipsum aliquam dolor quam fugit, dolore animi molestias
+            praesentium
+            repudiandae magni ea sunt voluptatem? Cumque facere quaerat, corrupti blanditiis dolor accusantium quasi
+            laboriosam iste unde porro dolorum quos ipsam iure dolore cum, odio animi placeat non quae voluptatum nemo
+            amet?
+        </p>
 
-    <h2>Open Positions</h2>
-    <p>TODO - Show the jobs here</p>
-
-    <button>Contact Us</button>
+        <h2>Open Positions</h2>
+        <p>TODO - Show the jobs here</p>
+        <div id="contact">
+            <button>Contact Us</button>
+        </div>
+    </div>
 </body>
 
 </html>
