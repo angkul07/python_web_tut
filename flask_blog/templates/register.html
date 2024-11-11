@@ -1,7 +1,7 @@
 {% extends "layout.html" %}
 {% block content %}
     <div class="contetn-section">
-        <form method="post" action="">
+        <form method="POST" action="">
             {{ form.hidden_tag() }}
             <fieldset class="form-group">
                 <legend class="border-bottom mb-4"> Join Today</legend>
@@ -37,7 +37,7 @@
 
     <div class="border-top pt-3">
         <small class="text-muted">
-            Already Have An Account? <a class="ml-2" href="{{ url_for('login')}}"> Sign In</a>
+            Already Have An Account? <a class="ml-1" href="{{ url_for('login')}}"> Sign In</a>
         </small>
     </div>
 {% endblock content %}
